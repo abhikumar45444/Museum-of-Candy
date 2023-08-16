@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(247, 211, 205);
+    font-family: 'nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+.img-fluid{
+    padding: 0;
+}
+
+.navbar-brand-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.nav-item a{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.757);
+    margin: 0 0.2rem;
+}
+
+.nav-item a:hover{
+    color: red;
+}
+
+.navbar-default{
+  transition:background-color 300ms ease;
+  background-color:transparent;
+}
+
+.navbar-default.scrolled{
+    background-color: rgb(212, 193, 223);
+}
+
+.slash{
+    color: red;
+}
+
+.para{
+    color: white;
+    font-weight: 200;
+    font-size: 3.5em;
+}
+
+.para p{
+    margin: 0;
+}
+
+@media (min-width:1200px) {
+    .item-description{
+        margin: 0 10rem;
+    }
+}
+
+@media (max-width:1050px) {
+    .para{
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width:976px)
+{
+    .museum-items div>.item-heading{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:585px){
+    .para{
+        display: none;
+    }
+
+    .museum-items-description img{
+        display: none;
+    }
+}
+
+@media (min-width:0) and (max-width:584px)
+{
+    .museum-items img{
+        order: 1;
+    }
+
+    .museum-items div{
+        order: 0;
+    }
+
+    .museum-items div>p{
+        padding: 2rem;
+    }
+}
+
+
+
+.museum-items{
+    padding-bottom: 6rem;
+}
+
+.item-heading{
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: red;
+}
+
+.item-description{
+    padding: 0 8rem;
+    font-size: 1.05rem;
+    line-height: 2.2;
+    color: rgb(245, 152, 168);
+}
